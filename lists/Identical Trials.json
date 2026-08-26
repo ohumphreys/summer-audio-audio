@@ -19,7 +19,7 @@
     },
     {
         "prime": "block",
-        "target": "bems",
+        "target": "vo",
         "prime syllables": "1",
         "target syllables": "1",
         "target type": "pseudo",
@@ -424,7 +424,7 @@
     },
     {
         "prime": "buy",
-        "target": "wem",
+        "target": "shray",
         "prime syllables": "1",
         "target syllables": "1",
         "target type": "pseudo",
@@ -874,7 +874,7 @@
     },
     {
         "prime": "miss",
-        "target": "conglil",
+        "target": "renerk",
         "prime syllables": "1",
         "target syllables": "2",
         "target type": "pseudo",
@@ -991,7 +991,7 @@
     },
     {
         "prime": "polish",
-        "target": "lench",
+        "target": "blape",
         "prime syllables": "2",
         "target syllables": "1",
         "target type": "pseudo",
@@ -1396,7 +1396,7 @@
     },
     {
         "prime": "topping",
-        "target": "enstence",
+        "target": "sether",
         "prime syllables": "2",
         "target syllables": "2",
         "target type": "pseudo",
