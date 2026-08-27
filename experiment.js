@@ -39,7 +39,7 @@ timeline_variables_ready.then(() => {
     const save_data = {
       type: jsPsychPipe,
       action: "save",
-      experiment_id: "A902rKEXAULc",
+      experiment_id: EXPERIMENT_ID,
       filename: filename,
       data_string: ()=>jsPsych.data.get().csv()
     };
@@ -49,7 +49,8 @@ timeline_variables_ready.then(() => {
     // adds these to every trial
     jsPsych.data.addProperties({
       counterbalance: counterbalance_number,
-      voice_used: VOICE_BEING_TESTED
+      voice_used: VOICE_BEING_TESTED,
+      subject_id: subject_id
     });
 
 

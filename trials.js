@@ -94,7 +94,7 @@ const test_tvs = [];
 // since fetching + parsing the trial lists above is asynchronous.
 let counterbalance_number;
 const timeline_variables_ready = (async () => {
-    counterbalance_number = await jsPsychPipe.getCondition("A902rKEXAULc");
+    counterbalance_number = await jsPsychPipe.getCondition(EXPERIMENT_ID);
     counterbalance_number += 1;
     await create_timeline_variables("lists/Practice Trials.json", practice_tvs);
     await create_timeline_variables("lists/Identical Trials.json", test_tvs);
