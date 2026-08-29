@@ -185,7 +185,7 @@ const irb_trial = [irb_intro, irb_doc]
 
 const headphone_confirmation = {
     type: jsPsychHtmlButtonResponse,
-    stimulus: "<p> Headphones are required for this experiment . Please only continue if you are currently wearing headphones. </p>",
+    stimulus: "<p> Headphones and a quiet environment are required for this experiment . Please only continue if you are currently wearing headphones and currently in a noise-free environment. </p>",
     choices: ["Continue"]
 }
 
