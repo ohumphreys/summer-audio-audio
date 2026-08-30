@@ -73,7 +73,7 @@ async function create_timeline_variables(json_file, tv_array) {
             target: trial["target"],
             prime_syllables: trial["prime syllables"],
             target_syllables: trial["target syllables"],
-            target_type: trial['target_type'],
+            target_type: trial['target type'],
             //renamed from trial_type to condition because jsPsych uses trial_type natively so it gets overriden
             condition: trial["trial type"],
             is_primed: trial["isprimed"],
