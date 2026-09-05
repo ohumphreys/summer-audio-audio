@@ -2,3 +2,4 @@
 lists/fetch_csvs.py
 audio/fetch_ga_audio.py
 audio/fetch_southern_audio.py
+audio/check_length.py
